@@ -1,0 +1,45 @@
+.col-lg-3
+{
+    text-align: center;
+    border:2px solid black;
+    width: 250px;
+    height: 300px;
+    margin-left:115px;
+    margin-top:30px;
+   background-color: white;
+   border-radius: 5%;
+    box-shadow: none;
+   
+    transition: box-shadow ease 1s;
+}
+.col-lg-3:hover
+    {
+     box-shadow:4px 3px black;
+    }
+body{
+    background-color: #999695;
+}
+ #ani
+    {
+        color: white;
+      width:300px;
+      
+        position: relative;
+        animation-name: move;
+        animation-duration: 10s;
+animation-iteration-count: infinite;
+      
+    }
+    @keyframes move
+    {
+     from 
+     {
+       
+         left:20px;
+     }
+     to
+     {  
+       
+         left:1300px;
+     }
+    }
